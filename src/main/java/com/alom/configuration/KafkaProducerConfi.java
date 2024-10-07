@@ -1,4 +1,4 @@
-package com.alom.confiuration;
+package com.alom.configuration;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -18,7 +18,11 @@ import com.alom.model.Customer;
 public class KafkaProducerConfi {
 
 	/**
-	 * This method is used to KAFKA producer configuration details 
+	 *  This method return consumerfactory bean after configuration
+	 *  <p >Here we configured as a map of data where key is type String and value type is Json data. Provided the Boottrap server url and port
+	 *  Specify the group id consumer is listening not only a topic but is listening group id for data consistancy.
+	 *  Used Key serializer type @class String and Value serializer type @Class Json type. </p>
+	 *  
 	 * @return
 	 */
 	
